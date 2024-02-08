@@ -1,51 +1,34 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Sistema Solar</title>
 </head>
-
 <body>
-  <header>
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#!" id="textoLogo" class="brand-logo center">Logo</a>
-        <form class="right">
-          <div class="input-field">
-            <input id="search" type="search" required>
-            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-            <i class="material-icons">close</i>
-          </div>
-        </form>
-      </div>
-      </div>
-      </div>
-    </nav>
-  </header>
-  <div class="parallax-container">
-    <div class="parallax"><img src="images/imagen1.jpg"></div>
-  </div>
-  <div class="section white">
-    <div class="row container">
-      <h2 class="header">Parallax</h2>
-      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this
-        case, is moved at a different speed than the foreground content while scrolling.</p>
-    </div>
-  </div>
-  <div class="parallax-container">
-    <div class="parallax"><img src="images/imagen2.jpg"></div>
+<!-- <body background="images/Back.jpg"> -->
+  <?php
+  include 'nav.html';
+  ?>
+      <p id="result"></p>
+  <div class="container" id="content">
+    <h1>Sistema Solar</h1>
+    <div class="d-flex justify-content-center">
+      <img src="images/Planetas.jpg" alt="Planetas">
+    </div>    
+    <p>
+El sistema solar es un sistema planetario que se encuentra en la Vía Láctea, nuestra galaxia. Está compuesto principalmente por el Sol y los objetos celestes que orbitan a su alrededor, incluyendo planetas, lunas, asteroides, cometas y otros cuerpos celestes. El Sol, una estrella de tipo espectral G, es el componente central y la fuente primaria de energía que mantiene en movimiento y proporciona luz a los objetos en el sistema solar. Los planetas, incluyendo la Tierra, orbitan alrededor del Sol en trayectorias elípticas, y las lunas orbitan alrededor de los planetas. El sistema solar se formó hace aproximadamente 4.6 mil millones de años a partir de una nube de gas y polvo interestelar, y desde entonces ha sido objeto de estudio científico para comprender sus orígenes y la dinámica de sus componentes.
+</p id="parrafo1">
+<br>
+<p>
+El sistema solar es un sistema planetario que se encuentra en la Vía Láctea, nuestra galaxia. Está compuesto principalmente por el Sol y los objetos celestes que orbitan a su alrededor, incluyendo planetas, lunas, asteroides, cometas y otros cuerpos celestes. El Sol, una estrella de tipo espectral G, es el componente central y la fuente primaria de energía que mantiene en movimiento y proporciona luz a los objetos en el sistema solar. Los planetas, incluyendo la Tierra, orbitan alrededor del Sol en trayectorias elípticas, y las lunas orbitan alrededor de los planetas. El sistema solar se formó hace aproximadamente 4.6 mil millones de años a partir de una nube de gas y polvo interestelar, y desde entonces ha sido objeto de estudio científico para comprender sus orígenes y la dinámica de sus componentes.
+</p>
+
   </div>
 
-  <!--JavaScript at end of body for optimized loading-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <script src="script.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
-
 </html>
